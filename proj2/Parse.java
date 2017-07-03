@@ -118,7 +118,6 @@ public class Parse {
             System.err.printf("Malformed select: %s\n", expr);
             return;
         }
-
         select(m.group(1), m.group(2), m.group(3));
     }
 
