@@ -71,4 +71,9 @@ public class Transact {
         }
     }
 
+    private void loadTable(String name) {
+        System.out.printf("You are trying to load the table named %s\n", name);
+        database.load(name);
+    }
+
 }

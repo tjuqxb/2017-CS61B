@@ -1,4 +1,4 @@
-package p2.codeSamples;
+package example.p2.codeSamples;
 
 public class DemoCardSuits {
 	/** Brief demonstration of how enums work in Java.
@@ -6,9 +6,9 @@ public class DemoCardSuits {
 	 *  dot notation, or can be created using valueOf notation.
 	 */
 	public static void main(String[] args) {
-		CardSuits[] someSuits = new CardSuits[3];
+		p2.codeSamples.CardSuits[] someSuits = new p2.codeSamples.CardSuits[3];
 		
-		someSuits[0] = CardSuits.DIAMONDS;
+		someSuits[0] = p2.codeSamples.CardSuits.DIAMONDS;
 		someSuits[1] = CardSuits.HEARTS;
 		someSuits[2] = CardSuits.valueOf("SPADES");
 
